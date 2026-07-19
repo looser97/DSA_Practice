@@ -46,7 +46,6 @@ func minWindow(s string, t string) string {
 	count := len(t)
 	start, end := 0, 0
 	minLen, startIndex := int(^uint(0)>>1), 0
-	/// UPVOTE !
 	for _, char := range t {
 		mapS[char]++
 	}
